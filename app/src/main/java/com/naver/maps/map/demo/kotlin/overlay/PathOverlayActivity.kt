@@ -17,8 +17,8 @@ package com.naver.maps.map.demo.kotlin.overlay
 
 import android.graphics.Color
 import android.os.Bundle
-import android.support.v4.content.res.ResourcesCompat
-import android.support.v7.app.AppCompatActivity
+import androidx.core.content.res.ResourcesCompat
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import android.widget.SeekBar
 import android.widget.TextView

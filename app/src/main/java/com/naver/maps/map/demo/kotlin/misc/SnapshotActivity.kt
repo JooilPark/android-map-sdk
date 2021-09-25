@@ -17,9 +17,9 @@ package com.naver.maps.map.demo.kotlin.misc
 
 import android.graphics.Color
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
-import android.support.v4.widget.CircularProgressDrawable
-import android.support.v7.app.AppCompatActivity
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import androidx.swiperefreshlayout.widget.CircularProgressDrawable
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import android.widget.CheckedTextView
 import android.widget.ImageView
@@ -65,7 +65,10 @@ class SnapshotActivity : AppCompatActivity(), OnMapReadyCallback {
 
         val fab = findViewById<FloatingActionButton>(R.id.fab)
         fab.setOnClickListener {
-            fab.setImageDrawable(CircularProgressDrawable(this).apply {
+            fab.setImageDrawable(
+                CircularProgressDrawable(
+                    this
+                ).apply {
                 setStyle(CircularProgressDrawable.LARGE)
                 setColorSchemeColors(Color.WHITE)
                 start()

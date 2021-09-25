@@ -17,7 +17,7 @@ package com.naver.maps.map.demo.kotlin.misc
 
 import android.graphics.PointF
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView

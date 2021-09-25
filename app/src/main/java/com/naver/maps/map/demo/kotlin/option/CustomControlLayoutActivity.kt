@@ -16,10 +16,10 @@
 package com.naver.maps.map.demo.kotlin.option
 
 import android.os.Bundle
-import android.support.constraint.ConstraintLayout
-import android.support.constraint.ConstraintSet
-import android.support.design.widget.FloatingActionButton
-import android.support.v7.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.constraintlayout.widget.ConstraintSet
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import androidx.appcompat.app.AppCompatActivity
 import android.view.Gravity
 import android.view.MenuItem
 import com.naver.maps.geometry.LatLng

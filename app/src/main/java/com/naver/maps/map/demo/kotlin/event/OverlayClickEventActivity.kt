@@ -16,7 +16,7 @@
 package com.naver.maps.map.demo.kotlin.event
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import android.widget.Toast
 import com.naver.maps.geometry.LatLng

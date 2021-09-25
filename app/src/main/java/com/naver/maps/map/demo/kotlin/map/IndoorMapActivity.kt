@@ -16,7 +16,7 @@
 package com.naver.maps.map.demo.kotlin.map
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.CameraPosition

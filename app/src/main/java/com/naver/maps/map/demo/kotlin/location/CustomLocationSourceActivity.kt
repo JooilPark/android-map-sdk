@@ -18,7 +18,7 @@ package com.naver.maps.map.demo.kotlin.location
 import android.graphics.PointF
 import android.location.Location
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.widget.Toast
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.LocationSource

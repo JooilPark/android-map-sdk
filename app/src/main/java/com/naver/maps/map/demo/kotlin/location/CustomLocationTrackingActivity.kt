@@ -19,12 +19,12 @@ import android.Manifest
 import android.annotation.SuppressLint
 import android.graphics.Color
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
-import android.support.v4.app.ActivityCompat
-import android.support.v4.content.ContextCompat
-import android.support.v4.content.PermissionChecker
-import android.support.v4.widget.CircularProgressDrawable
-import android.support.v7.app.AppCompatActivity
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import androidx.core.content.PermissionChecker
+import androidx.swiperefreshlayout.widget.CircularProgressDrawable
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import com.google.android.gms.common.api.GoogleApiClient
 import com.google.android.gms.location.LocationCallback
@@ -122,7 +122,10 @@ class CustomLocationTrackingActivity : AppCompatActivity(), OnMapReadyCallback {
                 disableLocation()
                 fab?.setImageResource(R.drawable.ic_my_location_black_24dp)
             } else {
-                fab?.setImageDrawable(CircularProgressDrawable(this).apply {
+                fab?.setImageDrawable(
+                    CircularProgressDrawable(
+                        this
+                    ).apply {
                     setStyle(CircularProgressDrawable.LARGE)
                     setColorSchemeColors(Color.WHITE)
                     start()

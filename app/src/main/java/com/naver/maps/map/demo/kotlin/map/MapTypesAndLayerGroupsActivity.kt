@@ -16,8 +16,8 @@
 package com.naver.maps.map.demo.kotlin.map
 
 import android.os.Bundle
-import android.support.annotation.IdRes
-import android.support.v7.app.AppCompatActivity
+import androidx.annotation.IdRes
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView

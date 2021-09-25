@@ -16,8 +16,8 @@
 package com.naver.maps.map.demo.kotlin.camera
 
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
-import android.support.v7.app.AppCompatActivity
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.CameraUpdate

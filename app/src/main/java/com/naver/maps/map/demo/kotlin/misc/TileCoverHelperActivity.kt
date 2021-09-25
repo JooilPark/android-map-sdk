@@ -17,8 +17,8 @@ package com.naver.maps.map.demo.kotlin.misc
 
 import android.graphics.Color
 import android.os.Bundle
-import android.support.v4.util.LongSparseArray
-import android.support.v7.app.AppCompatActivity
+import androidx.collection.LongSparseArray
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import com.naver.maps.map.MapFragment
 import com.naver.maps.map.NaverMap
@@ -30,7 +30,8 @@ import com.naver.maps.map.overlay.PolygonOverlay
 import com.naver.maps.map.util.TileCoverHelper
 
 class TileCoverHelperActivity : AppCompatActivity(), OnMapReadyCallback {
-    private val overlays: LongSparseArray<Overlay> = LongSparseArray()
+    private val overlays: LongSparseArray<Overlay> =
+        LongSparseArray()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
